@@ -1,0 +1,114 @@
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.titulo{
+    font-family: "Great Vibes";
+    font-size: 100px;
+}
+
+.subTitulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -4%;
+    font-size: 20px;
+}
+
+.header {
+    background: linear-gradient(72deg, #eebbd5 1%, #e62083 99%); 
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cta-button:hover {
+    background-color: #fdbcdc;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+
+.feature {
+    background-color: #f7acd1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.slideshow-container{
+    background-color:#f7acd1; 
+    text-align: center;
+}
+
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #fdbcdc;
+}
+
+img{
+    border-radius: 5%;
+}
+
+.slideshow{
+    display: flex;
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    gap: 10px;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+
+}
+
