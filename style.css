@@ -69,6 +69,16 @@
     text-align: center;
 }
 
+.slideshow{
+    display: flex;
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    gap: 10px;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+
+}
 
 .contact-form {
     background-color: white;
@@ -99,16 +109,5 @@
 
 img{
     border-radius: 5%;
-}
-
-.slideshow{
-    display: flex;
-    margin-top: 20px;
-    width: 800px;
-    height: 500px;
-    gap: 10px;
-    transition: 0.7s ease-in-out;
-    transform: translateX(0);
-
 }
 
