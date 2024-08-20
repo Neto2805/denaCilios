@@ -12,7 +12,7 @@ function slider() {
         contador = 0;
     }
 
-   box.style.transform = `translateX(${-contador * 500}px)`  //ALTERADO COM SUCESSOOOOOO
+   box.style.transform = `translateX(${-contador * 500}px)`  //ALTERADO COM SUCESSOOOOOO28
 }
 
 setInterval(slider, 2000);
